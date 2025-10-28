@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = ">=0.115.0"
+sqlmodel = ">=0.0.21"
+pydantic = ">=2.7.0"
+python-dotenv = ">=1.0.1"
+openai = ">=1.35.0"
+typing-extensions = ">=4.11.0"
+uvicorn = {extras = ["standard"], version = ">=0.30.0"}
+scikit-learn = "==1.5.2"
+kagglehub = "*"
+flask = "*"
+waitress = "*"
+requests = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
